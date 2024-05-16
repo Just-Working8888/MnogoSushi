@@ -1,0 +1,15 @@
+@import "../../scss/variables/colors.module.scss";
+
+.main_imges {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Statistic {
+    color: white !important;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary50;
+}

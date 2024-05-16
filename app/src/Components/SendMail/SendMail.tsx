@@ -3,7 +3,7 @@ import { Button, Card, Input } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
 
 const SendMail: React.FC = () => (
-    <div className='SendMail'  >
+    <div className='SendMail'>
 
         <div className='form'>
             <h1>Want more tutorials & guides</h1>

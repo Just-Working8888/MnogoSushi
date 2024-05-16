@@ -1,0 +1,83 @@
+@import "../../scss/variables/colors.module.scss";
+
+.main {
+    padding: $mainPadding;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &_form {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        &_inp {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            height: 50px;
+        }
+    }
+
+    &_baner {
+        padding: $mainPadding;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+
+        &_tools {
+
+
+
+            h1 {
+                font-size: 65px;
+                font-weight: 700;
+            }
+
+            p {
+                font-size: 35px !important;
+                font-weight: 600;
+            }
+
+            h1,
+            p {
+                color: white !important;
+            }
+
+            &_btn {
+                display: flex;
+                gap: 1rem;
+                width: fit-content;
+
+                &_b {
+                    height: 50px;
+                    width: 200px;
+                }
+            }
+
+        }
+    }
+
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+    &_add {
+        width: 100%;
+        background-color: $primary50;
+        color: white;
+
+        &:hover {
+            color: $primary50;
+            background-color: white !important;
+        }
+    }
+}

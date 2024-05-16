@@ -1,12 +1,13 @@
 @import "../../scss/variables/colors.module.scss";
 
 .main {
-  padding: 20px;
+  padding: $mainPadding;
   display: flex;
   flex-direction: column;
   gap: 120px;
 
   &_baner {
+    padding: $mainPadding;
     position: absolute;
     top: 0;
     left: 0;
@@ -18,7 +19,7 @@
     &_tools {
       background-color: rgba(0, 0, 0, 0.544);
       box-shadow: 0px 0px 54px 87px rgba(0, 0, 0, 0.544);
-      padding: 20px;
+
 
       h1 {
         font-size: 65px;

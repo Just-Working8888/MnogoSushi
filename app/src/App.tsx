@@ -6,6 +6,8 @@ import MainPage from 'routes/MainPage/MainPage';
 import TestPage from 'routes/Test/Test';
 import Main from 'layout/Main/Main';
 import FullScreen from 'layout/FullScreen/FullScreen';
+import Catalog from 'routes/Catalog/Catalog';
+import Categories from 'routes/Categories/Categories';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       </Route>
       <Route path='/' element={<Main />}>
         <Route path='/' element={<MainPage />} />
+        <Route path='/catalog' element={<Catalog />} />
+        <Route path='/categories' element={<Categories />} />
       </Route>
       <Route path='*' element={<main className={'errorPage'}><p>Неверный адрес</p></main>} />
     </Routes>

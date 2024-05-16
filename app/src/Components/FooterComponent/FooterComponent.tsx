@@ -33,18 +33,8 @@ const FooterComponent: FC = () => {
 
                 </div>
             </div>
-            {/* <div className={classes.footer_main}>
-                <div className={classes.footer_top_contact}>
-                    <div>    <Logo /></div>
-                    <div>
-                        <h1>8 800 841-95-95</h1>
-                        <h2>Служба поддержки</h2>
-                    </div>
-                    <div>
-                        <h1>support@sport.ru</h1>
-                        <h2>Служба поддержки</h2>
-                    </div>
-                </div>
+            <div className={classes.footer_main}>
+
                 {
                     data.map((item, index) => <div key={index} className={classes.footer_main_col}>
                         <h1>{item.title}</h1>
@@ -53,24 +43,9 @@ const FooterComponent: FC = () => {
                         </div>
                     </div>)
                 }
-
-
-            </div> */}
-            {/* <Flex>
                 <div className={classes.footer_main_col}>
-                    <h1>Подпишитесь на нашу рассылку</h1>
-                    <div>
-                        <div style={{ display: 'flex' }}>
-                            <Input />
-                            <Button type="primary">принять</Button>
-                        </div>
-
-                    </div>
-                </div>
-             
-                <div>
-                    Мы принимаем способы оплаты:
-                    <Flex>
+                    <h1>Способы оплаты</h1>
+                    <div style={{ flexDirection: 'row', alignItems: 'center' }}>
                         <Tag className={classes.paymant}>
                             <img src="https://mnogosushi.kg/static/assets/images/small/Visa.png" alt="visa" />
                         </Tag>
@@ -86,9 +61,15 @@ const FooterComponent: FC = () => {
                         <Tag className={classes.paymant}>
                             <img src="https://mnogosushi.kg/static/assets/images/small/GooglePay.png" alt="googlepay" />
                         </Tag>
-                    </Flex>
+                    </div>
                 </div>
-            </Flex> */}
+
+
+
+
+
+            </div>
+
 
             <div className={classes.footer_bot}>
                 <ul>

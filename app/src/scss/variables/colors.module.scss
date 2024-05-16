@@ -1,8 +1,9 @@
-$primary100: #ee1d23 !important;
-$primary50: #FE724C;
+$primary100: #FE724C !important;
+$primary50: #ee1d23;
 $gost: #F2F6FF;
 $primaryborder: #ccc;
 $primarytext: #1551E5;
+$mainPadding: 0 100px;
 
 
 $borderColor: #00000027;
@@ -28,6 +29,8 @@ $defaultactive: #e6eef7;
   gost: $gost;
   primaryborder: $primaryborder;
   primarytext: $primarytext;
+  mainPadding: $mainPadding;
+
 
   borderColor: $borderColor;
   lightgrayfill: $lightgrayfill;
