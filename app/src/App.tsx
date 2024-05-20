@@ -8,6 +8,9 @@ import Main from 'layout/Main/Main';
 import FullScreen from 'layout/FullScreen/FullScreen';
 import Catalog from 'routes/Catalog/Catalog';
 import Categories from 'routes/Categories/Categories';
+import SingleProduckt from 'routes/SingleProduckt/SingleProduckt';
+import Cart from 'routes/Cart/Cart';
+import OrderPlacing from 'routes/OrderPlacing/OrderPlacing';
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
         <Route path='/' element={<MainPage />} />
         <Route path='/catalog' element={<Catalog />} />
         <Route path='/categories' element={<Categories />} />
+        <Route path='/food/:id' element={<SingleProduckt />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="orders" element={<OrderPlacing />} />
       </Route>
       <Route path='*' element={<main className={'errorPage'}><p>Неверный адрес</p></main>} />
     </Routes>

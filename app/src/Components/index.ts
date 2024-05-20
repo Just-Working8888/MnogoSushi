@@ -8,4 +8,8 @@ import SendMail from "./SendMail/SendMail"
 import Baner from "./Baners/Baner"
 import Survey from "./Tests/Tests"
 import News from "./News/News"
-export { HeaderComponent, Login, SignUp, MainBtn, Bredcrumps, TestCard, SendMail, Baner, Survey, News }
+import SingleProductCard from './SingleProductCard/SingleProducktCard'
+import AddRewue from "./AddRewue/AddRewue"
+import SmallCart from "./SmallCart/SmallCart"
+import CartItemComponent from "./CartItemComponent/CartItemComponent"
+export { HeaderComponent, Login, SignUp, MainBtn, Bredcrumps, TestCard, SendMail, Baner, Survey, News, SingleProductCard, AddRewue, SmallCart, CartItemComponent }
